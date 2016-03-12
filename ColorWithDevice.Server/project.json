@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ColorWithDevice.Server Console Application",
+  "authors": [ "ito" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Owin": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.AspNet.SignalR.Core": "2.2.0",
+    "Microsoft.AspNet.SignalR.Owin": "1.2.2",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel",
+    "public": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://0.0.0.0:5000"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "ColorWithDevice.Model": "1.0.0-*"
+      }
+    }
+  },
+}

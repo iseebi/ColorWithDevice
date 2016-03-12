@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45+win+MonoAndroid10+Xamarin.iOS10+MonoTouch10": {
+      "wrappedProject": "../../ColorWithDevice.Model/ColorWithDevice.Model.csproj",
+      "bin": {
+        "assembly": "../../ColorWithDevice.Model/obj/{configuration}/ColorWithDevice.Model.dll",
+        "pdb": "../../ColorWithDevice.Model/obj/{configuration}/ColorWithDevice.Model.pdb"
+      }
+    },
+    "dnx451": { 
+      "wrappedProject": "../../ColorWithDevice.Model/ColorWithDevice.Model.csproj",
+      "bin": {
+        "assembly": "../../ColorWithDevice.Model/obj/{configuration}/ColorWithDevice.Model.dll",
+        "pdb": "../../ColorWithDevice.Model/obj/{configuration}/ColorWithDevice.Model.pdb"
+      }
+	}
+  }
+}
